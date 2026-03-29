@@ -1,0 +1,23 @@
+# Dependencies (DONO folders ke liye)
+node_modules/
+*/node_modules/
+
+# Environment variables (sensitive data)
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build files (React waghera)
+build/
+dist/
+
+# OS files (system junk)
+.DS_Store
+Thumbs.db
+
+# Optional (testing waghera)
+coverage/
